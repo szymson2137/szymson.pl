@@ -1,7 +1,8 @@
 body {
-    margin:0;
-	background-image: url("img/wallpaper.jpg") ;
-	background-position: top;
+    margin: auto;
+	background-image: url("img/wallpaper.jpg");
+	background-position: auto 100hx;
+	background-size: auto;
 	background-repeat: no-repeat; 
 }
 a{
@@ -77,7 +78,7 @@ a:visited{
 	justify-content: center;
 }
 .discord{
-	height: 100vh;
+	height: 90vh;
 	animation: show 1s linear 2s forwards;
 	opacity: 0;
 	display: flex;
