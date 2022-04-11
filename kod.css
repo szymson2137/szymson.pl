@@ -11,7 +11,6 @@ a{
 a:visited{
 	color: silver;
 }
-}
 .transbox {
   margin: 20px;
   background-color: #ffffff;
@@ -33,7 +32,6 @@ a:visited{
     bottom:0;
     animation: rotate 1s linear infinite, fade 1s linear 2s forwards;
 }
-
 .content{
 	height: 22vh;
     opacity: 0;
