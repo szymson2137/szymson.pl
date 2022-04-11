@@ -4,6 +4,14 @@ body {
 	background-position: top;
 	background-repeat: no-repeat; 
 }
+a{
+	color: white;
+	text-decoration: none;
+}
+a:visited{
+	color: silver;
+}
+}
 .transbox {
   margin: 20px;
   background-color: #ffffff;
@@ -50,14 +58,33 @@ body {
 	font-family: arial;
 
 }
+.links{
+	height: 0vh;
+	font-size: 20px;
+	line-height: 2px ; 
+	opacity: 0;
+	animation: show 1s linear 2s forwards;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: arial;
+}
 .img{
 	height: 25vh;
-	opacity:0;
+	opacity: 0;
 	line-height: 2px;
 	animation: show 1s linear 2s forwards;
-	display:flex;
-	align-items:center;
-	justify-content:center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.discord{
+	height: 100vh;
+	animation: show 1s linear 2s forwards;
+	opacity: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 @keyframes rotate{
     from{transform:rotate(0deg);}
