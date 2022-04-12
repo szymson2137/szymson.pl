@@ -1,7 +1,7 @@
 body {
     margin: auto;
 	background-image: url("img/wallpaper.jpg");
-	background-position: auto 100hx;
+	background-position: auto;
 	background-size: auto;
 	background-repeat: no-repeat; 
 }
@@ -34,7 +34,10 @@ a:visited{
     animation: rotate 1s linear infinite, fade 1s linear 2s forwards;
 }
 .content{
-	height: 22vh;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: 20%;
+	left: 50%;
     opacity: 0;
     animation: show 1s linear 2s forwards;
     font-family: arial;
@@ -45,7 +48,10 @@ a:visited{
     align-items: center;
 }
 .content2{
-	height: 0vh;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: 24%;
+	left: 50%;
 	color: #fff;
 	font-size: 12px;
 	line-height: 2px ; 
@@ -58,9 +64,27 @@ a:visited{
 
 }
 .content3{
-	height: 2vh;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: 85%;
+	left: 50%;
 	color: #fff;
-	font-size: 12px;
+	font-size: 20px;
+	line-height: 2px ; 
+	animation: show 1s linear 2s forwards;
+	opacity: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: arial;
+}
+.content4{
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 50%;
+	color: #fff;
+	font-size: 40px;
 	line-height: 2px ; 
 	animation: show 1s linear 2s forwards;
 	opacity: 0;
@@ -70,7 +94,10 @@ a:visited{
 	font-family: arial;
 }
 .links{
-	height: 0vh;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: 90%;
+	left: 50%;
 	font-size: 20px;
 	line-height: 2px ; 
 	opacity: 0;
@@ -80,8 +107,53 @@ a:visited{
 	justify-content: center;
 	font-family: arial;
 }
+.links2{
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: 95%;
+	left: 50%;
+	font-size: 20px;
+	line-height: 2px ; 
+	opacity: 0;
+	animation: show 1s linear 2s forwards;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: arial;
+}
+.links3{
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: 80%;
+	left: 50%;
+	font-size: 20px;
+	line-height: 2px ; 
+	opacity: 0;
+	animation: show 1s linear 2s forwards;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: arial;
+}
+.links4{
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: 85%;
+	left: 50%;
+	font-size: 30px;
+	line-height: 2px ; 
+	opacity: 0;
+	animation: show 1s linear 2s forwards;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: arial;
+}
 .img{
-	height: 25vh;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: 35%;
+	left: 50%;
 	opacity: 0;
 	line-height: 2px;
 	animation: show 1s linear 2s forwards;
@@ -90,7 +162,10 @@ a:visited{
 	justify-content: center;
 }
 .discord{
-	height: 80vh;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: 40%;
+	left: 50%;
 	animation: show 1s linear 2s forwards;
 	opacity: 0;
 	display: flex;
