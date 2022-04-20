@@ -1,9 +1,16 @@
 body {
+	background-color: #457882;
     margin: auto;
 	background-image: url("img/wallpaper.jpg");
 	background-position: auto;
 	background-size: auto;
 	background-repeat: no-repeat; 
+}
+::-webkit-scrollbar { 
+    display: none; 
+}
+html {
+  scroll-behavior: smooth;
 }
 a{
 	color: white;
@@ -19,6 +26,7 @@ a:visited{
   opacity: 0.6;
 }
 .loader{
+	overflow:hidden;
     margin:auto ;
     border-radius:50%;
     border:15px solid gray;
@@ -32,6 +40,20 @@ a:visited{
     right:0;
     bottom:0;
     animation: rotate 1s linear infinite, fade 1s linear 2s forwards;
+}
+.bi{
+	background-color: blue;
+}
+.logo{
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: 10%;
+	left: 5%;
+	animation: show 1s linear 2s forwards;
+	opacity: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 .content{
 	position: absolute;
@@ -66,7 +88,7 @@ a:visited{
 .content3{
 	position: absolute;
 	transform: translate(-50%, -50%);
-	top: 85%;
+	top: 185%;
 	left: 50%;
 	color: #fff;
 	font-size: 20px;
@@ -93,10 +115,30 @@ a:visited{
 	justify-content: center;
 	font-family: arial;
 }
+.content5{
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: 100%;
+	left: 95%;
+	animation: show 1s linear 2s forwards;
+	opacity: 0;
+	display: flex;
+}
+.content6{
+	position: absolute;
+	color: #fff;
+	font-size: 40px;
+	transform: translate(-50%, -50%);
+	top: 150%;
+	left: 50%;
+	animation: show 1s linear 2s forwards;
+	opacity: 0;
+	display: flex;
+}
 .links{
 	position: absolute;
 	transform: translate(-50%, -50%);
-	top: 90%;
+	top: 190%;
 	left: 50%;
 	font-size: 20px;
 	line-height: 2px ; 
@@ -110,7 +152,7 @@ a:visited{
 .links2{
 	position: absolute;
 	transform: translate(-50%, -50%);
-	top: 95%;
+	top: 195%;
 	left: 50%;
 	font-size: 20px;
 	line-height: 2px ; 
@@ -171,6 +213,56 @@ a:visited{
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+section {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.scroll-down {
+	height: 50px;
+	width: 30px;
+	border: 2px solid white;
+	position: absolute;
+	left: 50%;
+	bottom: 20px;
+	border-radius: 50px;
+	cursor: pointer;
+}
+.scroll-down::before,
+.scroll-down::after {
+	content: "";
+	position: absolute;
+	top: 20%;
+	left: 50%;
+	height: 10px;
+	width: 10px;
+	transform: translate(-50%, -100%) rotate(45deg);
+	border: 2px solid white;
+	border-top: transparent;
+	border-left: transparent;
+	animation: scroll-down 1s ease-in-out infinite;
+}
+.scroll-down::before {
+	top: 30%;
+	animation-delay: 0.3s;
+}
+@keyframes scroll-down {
+	0% {
+		opacity: 0;
+	}
+	30% {
+		opacity: 1;
+	}
+	60% {
+		opacity: 1;
+	}
+	100% {
+		top: 90%;
+		opacity: 0;
+	}
 }
 @keyframes rotate{
     from{transform:rotate(0deg);}
