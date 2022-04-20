@@ -10,7 +10,7 @@ body {
     display: none; 
 }
 html {
-  scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
 a{
 	color: white;
@@ -20,10 +20,10 @@ a:visited{
 	color: silver;
 }
 .transbox {
-  margin: 20px;
-  background-color: #ffffff;
-  border: 1px solid black;
-  opacity: 0.6;
+	margin: 20px;
+	background-color: #ffffff;
+	border: 1px solid black;
+	opacity: 0.6;
 }
 .loader{
 	overflow:hidden;
@@ -215,11 +215,11 @@ a:visited{
 	justify-content: center;
 }
 section {
-  min-height: 100vh;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+	min-height: 100vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 .scroll-down {
 	height: 50px;
