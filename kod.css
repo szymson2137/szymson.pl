@@ -1,16 +1,16 @@
 body {
 	background-color: #457882;
-    margin: auto;
+	margin: auto;
 	background-image: url("img/wallpaper.jpg");
 	background-position: auto;
 	background-size: auto;
 	background-repeat: no-repeat; 
 }
 ::-webkit-scrollbar { 
-    display: none; 
+	display: none; 
 }
 html {
-scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }	
 section {
 	min-height: 100vh;
@@ -33,20 +33,19 @@ a:visited{
 	opacity: 0.6;
 }
 .loader{
-	overflow:hidden;
-    margin:auto ;
-    border-radius:50%;
-    border:15px solid gray;
-    border-left: 15px solid red;
-    width:100px;
-    height:100px;
-    box-sizing:border-box;
-    position:fixed;
-    left:0;
-    top:0;
-    right:0;
-    bottom:0;
-    animation: rotate 1s linear infinite, fade 1s linear 2s forwards;
+	margin:auto ;
+	border-radius:50%;
+	border:15px solid gray;
+	border-left: 15px solid red;
+	width:100px;
+	height:100px;
+	box-sizing:border-box;
+	position:fixed;
+	left:0;
+	top:0;
+	right:0;
+	bottom:0;
+	animation: rotate 1s linear infinite, fade 1s linear 2s forwards;
 }
 .bi{
 	background-color: blue;
@@ -67,14 +66,14 @@ a:visited{
 	transform: translate(-50%, -50%);
 	top: 20%;
 	left: 50%;
-    opacity: 0;
-    animation: show 1s linear 2s forwards;
-    font-family: arial;
-    font-size: 30px;
-    color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+	opacity: 0;
+	animation: show 1s linear 2s forwards;
+	font-family: arial;
+	font-size: 30px;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 .content2{
 	position: absolute;
@@ -210,16 +209,6 @@ a:visited{
 	align-items: center;
 	justify-content: center;
 }
-.add{
-	position: absolute;
-	transform: translate(-50%, -50%);
-	top: 150%;
-	left: 50%;
-	animation: show 1s linear 2s forwards;
-	opacity: 0;
-	display: flex;
-}
-
 .scroll-down {
 	height: 50px;
 	width: 30px;
@@ -264,14 +253,14 @@ a:visited{
 	}
 }
 @keyframes rotate{
-    from{transform:rotate(0deg);}
-    to{transform:rotate(360deg);}
+	from{transform:rotate(0deg);}
+	to{transform:rotate(360deg);}
 }
 @keyframes fade{
-    from {opacity:1;}
-    to{opacity:0;}
+	from {opacity:1;}
+	to{opacity:0;}
 }
 @keyframes show{
-    from {opacity:0;}
-    to{opacity:1;}
+	from {opacity:0;}
+	to{opacity:1;}
 }
