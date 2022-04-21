@@ -10,7 +10,14 @@ body {
     display: none; 
 }
 html {
-	scroll-behavior: smooth;
+scroll-behavior: smooth;
+}	
+section {
+	min-height: 100vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 a{
 	color: white;
@@ -124,17 +131,6 @@ a:visited{
 	opacity: 0;
 	display: flex;
 }
-.content6{
-	position: absolute;
-	color: #fff;
-	font-size: 40px;
-	transform: translate(-50%, -50%);
-	top: 150%;
-	left: 50%;
-	animation: show 1s linear 2s forwards;
-	opacity: 0;
-	display: flex;
-}
 .links{
 	position: absolute;
 	transform: translate(-50%, -50%);
@@ -214,13 +210,16 @@ a:visited{
 	align-items: center;
 	justify-content: center;
 }
-section {
-	min-height: 100vh;
-	width: 100%;
+.add{
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: 150%;
+	left: 50%;
+	animation: show 1s linear 2s forwards;
+	opacity: 0;
 	display: flex;
-	align-items: center;
-	justify-content: center;
 }
+
 .scroll-down {
 	height: 50px;
 	width: 30px;
