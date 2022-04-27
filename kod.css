@@ -210,6 +210,14 @@ a:visited{
 	align-items: center;
 	justify-content: center;
 }
+.img2:hover {
+	z-index: 2 ;
+	-ms-transform: scale(105%);
+	-webkit-transform: scale(105%);
+	top: 0%;
+	left: 0%;
+	transform: scale(105%); 
+}
 .file{
 	position: absolute;
 	transform: translate(-50%, -50%);
