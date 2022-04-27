@@ -109,10 +109,10 @@ a:visited{
 .content4{
 	position: absolute;
 	transform: translate(-50%, -50%);
-	top: 50%;
+	top: 80%;
 	left: 50%;
 	color: #fff;
-	font-size: 40px;
+	font-size: 30px;
 	line-height: 2px ; 
 	animation: show 1s linear 2s forwards;
 	opacity: 0;
@@ -175,7 +175,7 @@ a:visited{
 .links4{
 	position: absolute;
 	transform: translate(-50%, -50%);
-	top: 85%;
+	top: 95%;
 	left: 50%;
 	font-size: 30px;
 	line-height: 2px ; 
@@ -201,7 +201,7 @@ a:visited{
 .img2{
 	position: absolute;
 	transform: translate(-50%, -50%);
-	top: 145%;
+	top: 30%;
 	left: 50%;
 	opacity: 0;
 	line-height: 2px;
@@ -209,6 +209,20 @@ a:visited{
 	display: flex;
 	align-items: center;
 	justify-content: center;
+}
+.file{
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: 55%;
+	left: 50%;
+	opacity: 0;
+	line-height: 2px;
+	animation: show 1s linear 2s forwards;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: arial;
+	font-size: 20px;
 }
 .discord{
 	position: absolute;
