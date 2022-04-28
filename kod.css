@@ -211,12 +211,28 @@ a:visited{
 	justify-content: center;
 }
 .img2:hover {
-	z-index: 2 ;
-	-ms-transform: scale(105%);
-	-webkit-transform: scale(105%);
-	top: 0%;
-	left: 0%;
-	transform: scale(105%); 
+	animation: zoomin 2s 1;
+}
+.img3{
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: 168%;
+	left: 50%;
+	opacity: 0;
+	line-height: 2px;
+	animation: show 1s linear 2s forwards;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.vd {
+	opacity: 0;
+	animation: show 1s linear 2s forwards;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: 168%;
+	left: 50%;
+	z-index: -1;
 }
 .file{
 	position: absolute;
@@ -270,6 +286,25 @@ a:visited{
 .scroll-down::before {
 	top: 30%;
 	animation-delay: 0.3s;
+}
+.img-hover-zoom { 
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: 30%;
+	left: 50%;
+	opacity: 0;
+	line-height: 2px;
+	animation: show 1s linear 2s forwards;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 2;
+}
+.img-hover-zoom img {
+	transition: transform .5s ease;
+}
+.img-hover-zoom:hover img {
+	transform: scale(1.5);
 }
 @keyframes scroll-down {
 	0% {
