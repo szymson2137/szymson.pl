@@ -1,10 +1,6 @@
 body {
 	background-color: #457882;
 	margin: auto;
-	background-image: url("img/wallpaper.jpg");
-	background-position: auto;
-	background-size: auto;
-	background-repeat: no-repeat; 
 }
 ::-webkit-scrollbar { 
 	display: none; 
@@ -33,7 +29,8 @@ a:visited{
 	opacity: 0.6;
 }
 .loader{
-	margin:auto ;
+	z-index: 1;
+	margin:auto;
 	border-radius:50%;
 	border:15px solid gray;
 	border-left: 15px solid red;
@@ -216,7 +213,7 @@ a:visited{
 .img3{
 	position: absolute;
 	transform: translate(-50%, -50%);
-	top: 168%;
+	top: 162%;
 	left: 50%;
 	opacity: 0;
 	line-height: 2px;
@@ -225,13 +222,20 @@ a:visited{
 	align-items: center;
 	justify-content: center;
 }
+.wp{
+	position: absolute;
+	transform: translate(-50%, -50%);
+	left: 50%;
+	top: 50%;
+	z-index: 0;
+}
 .vd {
 	opacity: 0;
 	animation: show 1s linear 2s forwards;
 	position: absolute;
 	transform: translate(-50%, -50%);
-	top: 168%;
 	left: 50%;
+	top: 162%;
 	z-index: -1;
 }
 .file{
