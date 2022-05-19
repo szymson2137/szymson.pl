@@ -223,11 +223,11 @@ a:visited{
 	justify-content: center;
 }
 .wp{
-	position: absolute;
+	position: fixed;
 	transform: translate(-50%, -50%);
 	left: 50%;
 	top: 50%;
-	z-index: 0;
+	z-index: -1;
 }
 .vd {
 	opacity: 0;
