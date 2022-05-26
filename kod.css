@@ -1,5 +1,5 @@
 body {
-	background-color: #457882;
+	background-color: #000000;
 	margin: auto;
 }
 ::-webkit-scrollbar { 
@@ -235,7 +235,7 @@ a:visited{
 	position: absolute;
 	transform: translate(-50%, -50%);
 	left: 50%;
-	top: 162%;
+	top: 160%;
 	z-index: -1;
 }
 .file{
