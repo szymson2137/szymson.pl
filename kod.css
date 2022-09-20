@@ -128,17 +128,17 @@ a:visited{
 	display: flex;
 }
 .clock {  
-    position: absolute;  
-    top: 10%;  
-    left: 90%;  
-    padding-top: 15px;
+	 position: absolute;  
+	top: 10%;  
+	left: 90%;  
+	padding-top: 15px;
 	animation: show 1s linear 2s forwards;
 	opacity: 0;
-    transform: translateX(-50%) translateY(-50%);  
-    color: #fc0328;  
-    font-size: 40px;
-    font-family: Impact;  
-    letter-spacing: 7px;	
+	transform: translateX(-50%) translateY(-50%);  
+	color: #fc0328;  
+	font-size: 40px;
+	font-family: Impact;  
+	letter-spacing: 7px;	
 }
 .links{
 	position: absolute;
