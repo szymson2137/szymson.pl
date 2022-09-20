@@ -20,6 +20,30 @@
 			<div class="logo">
 				<img src="img/logo.png" alt="coś sie zmecholiło" width="80px" height="80px" style="border: 0">
 			</div>
+			<div id = "time" class = "clock" onload = "showTime()"> </div>
+			<script>  
+function showTime(){  
+    var date = new Date();  
+    var h = date.getHours();  
+    var m = date.getMinutes();  
+    var s = date.getSeconds();  
+    var session = "AM";  
+    if(h == 0) {  
+        h = 12;  
+    }  
+    if(h > 12) {  
+        hh = h - 12;  
+   }  
+    h = (h < 10) ? "0" + h : h;  
+    m = (m < 10) ? "0" + m : m;  
+    s = (s < 10) ? "0" + s : s;  
+    var time = h + ":" + m + ":" + s;  
+    document.getElementById("time").innerText = time;  
+    document.getElementById("time").textContent = time;  
+    setTimeout(showTime, 1000);  
+}  
+showTime();  
+			</script>
 			<div class="content">
 				<b>szy_mson</b>
 			</div>
