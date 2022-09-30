@@ -129,7 +129,7 @@ a:visited{
 .content69{
 	position: absolute;
 	transform: translate(-50%, -50%);
-	top: 7%;
+	top: 6%;
 	left: 90%;
 	opacity: 0;
 	animation: show 1s linear 2s forwards;
