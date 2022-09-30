@@ -127,6 +127,20 @@ a:visited{
 	opacity: 0;
 	display: flex;
 }
+.content69{
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: 10%;
+	left: 78%;
+	opacity: 0;
+	animation: show 1s linear 2s forwards;
+	font-family: arial;
+	font-size: 15px;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
 .clock {  
 	 position: absolute;  
 	top: 10%;  
