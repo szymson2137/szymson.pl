@@ -130,8 +130,8 @@ a:visited{
 .content69{
 	position: absolute;
 	transform: translate(-50%, -50%);
-	top: 10%;
-	left: 78%;
+	top: 5%;
+	left: 90%;
 	opacity: 0;
 	animation: show 1s linear 2s forwards;
 	font-family: arial;
