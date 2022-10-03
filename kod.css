@@ -139,6 +139,20 @@ a:visited{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+.content70{
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 50%;
+	opacity: 0;
+	animation: show 1s linear 2s forwards;
+	font-family: arial;
+	font-size: 20px;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 
 }
 .clock {  
@@ -197,6 +211,20 @@ a:visited{
 	font-family: arial;
 }
 .links4{
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: 95%;
+	left: 50%;
+	font-size: 30px;
+	line-height: 2px ; 
+	opacity: 0;
+	animation: show 1s linear 2s forwards;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: arial;
+}
+.links5{
 	position: absolute;
 	transform: translate(-50%, -50%);
 	top: 95%;
