@@ -153,7 +153,20 @@ a:visited{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-
+}
+.hr{
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: 210%;
+	left: 150%;
+	opacity: 0;
+	animation: show 1s linear 2s forwards;
+	font-family: arial;
+	font-size: 20px;
+	color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 .clock {  
 	 position: absolute;  
@@ -227,9 +240,9 @@ a:visited{
 .links5{
 	position: absolute;
 	transform: translate(-50%, -50%);
-	top: 95%;
+	top: 200%;
 	left: 50%;
-	font-size: 30px;
+	font-size: 20px;
 	line-height: 2px ; 
 	opacity: 0;
 	animation: show 1s linear 2s forwards;
@@ -291,7 +304,7 @@ a:visited{
 	position: absolute;
 	transform: translate(-50%, -50%);
 	left: 50%;
-	top: 160%;
+	top: 50%;
 	z-index: -1;
 }
 .file{
