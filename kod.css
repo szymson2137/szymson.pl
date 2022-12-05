@@ -263,6 +263,9 @@ a:visited{
 	align-items: center;
 	justify-content: center;
 }
+.img:hover {
+	animation: zoomin 2s 1;
+}
 .img2{
 	position: absolute;
 	transform: translate(-50%, -50%);
